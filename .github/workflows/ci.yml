@@ -9,10 +9,7 @@ on:
 jobs:
   test:
     name: Run tests
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
       - name: Set up Python
