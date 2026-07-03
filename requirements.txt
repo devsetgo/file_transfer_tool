@@ -1,7 +1,8 @@
-tqdm>=4.66.0
-pyinstaller>=5.10.0
-bumpcalver
-ruff
-isort
-black
-pytest
+tqdm>=4.68.3
+black>=26.5.1 # From none | Vulnerabilities: None
+bumpcalver>=2026.5.24.1 # From none | Vulnerabilities: None
+isort>=8.0.1 # From none | Vulnerabilities: None
+pyinstaller>=6.21.0 # From 5.10.0 | Vulnerabilities: None
+pytest>=9.1.1 # From none | Vulnerabilities: None
+ruff>=0.15.20 # From none | Vulnerabilities: None
+loguru>=0.7.0
