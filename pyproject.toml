@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "file-transfer-tool"
+version = "0.0.0"
+description = "Safety-first SD card transfer tool"
+authors = [ { name = "", email = "" } ]
+
+[tool.bumpcalver]
+version_format = "{current_date}-{build_count:03}"
+date_format = "%y-%m-%d"
+timezone = "America/New_York"
+git_tag = true
+auto_commit = true
+
+[[tool.bumpcalver.file]]
+path = "pyproject.toml"
+file_type = "toml"
+variable = "project.version"
+version_standard = "python"
