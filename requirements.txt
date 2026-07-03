@@ -1,0 +1,7 @@
+tqdm>=4.66.0
+pyinstaller>=5.10.0
+bumpcalver
+ruff
+isort
+black
+pytest

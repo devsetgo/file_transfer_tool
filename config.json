@@ -1,0 +1,36 @@
+{
+  "archive_folder_name": "Expedition_Archive",
+  "archive_drive_labels": [
+    "ExpeditionDrive",
+    "WD_BLACK",
+    "EXPEDITION"
+  ],
+  "devices": [
+    "DJI",
+    "GoPro",
+    "Dashcam",
+    "Phone",
+    "Other"
+  ],
+  "supported_extensions": [
+    ".mp4",
+    ".mov",
+    ".jpg",
+    ".jpeg",
+    ".png",
+    ".dng",
+    ".wav",
+    ".srt",
+    ".thm",
+    ".lrv",
+    ".insv"
+  ],
+  "verification_mode": "size",
+  "require_external_archive": true,
+  "copy_engine": "robocopy",
+  "robocopy_threads": 2,
+  "worker_threads": 4,
+  "dry_run": false,
+  "copy_retries": 2,
+  "resume_enabled": true
+}
